@@ -1,6 +1,70 @@
-my-landing/
-  ├─ index.html
-  ├─ images/
-  │   └─ hero.jpg
-  └─ css/ (opsional)
-      └─ style.css
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Starhub</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: linear-gradient(135deg, #2c3e50, #3498db);
+      color: white;
+    }
+    header {
+      padding: 40px 20px;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+    }
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+    .btn {
+      background: #e74c3c;
+      padding: 15px 30px;
+      border-radius: 8px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #c0392b;
+    }
+    .btn-secondary {
+      background: #27ae60;
+    }
+    .btn-secondary:hover {
+      background: #1e8449;
+    }
+    footer {
+      margin-top: 50px;
+      padding: 20px;
+      background: rgba(0,0,0,0.3);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Selamat Datang di StarHub</h1>
+    <p>Ini contoh sederhana pakai HTML + CSS, bisa kamu edit sesuka hat</p>
+    <div class="buttons">
+      <a href="#" class="btn">DAFTAR</a>
+      <a href="#" class="btn btn-secondary">MASUK</a>
+    </div>
+  </header>
+
+  <footer>
+    <p>© 2025 StarHub</p>
+  </footer>
+</body>
+</html>
